@@ -1,0 +1,33 @@
+/* Dividir a este archivo en: Aplicación de las animaciones, y Secuencias o Reglas de ellas */
+
+  /* [Sección: Aplicación] */
+  
+    .anim_nombre1 {
+      animation: secuencia_nombre1 2s infinite linear;
+    }
+    
+    .anim_nombre2 {
+      animation: secuencia_nombre2 1s 3 ease-in-out; 
+    }
+    
+  /* [Sección: Secuencias] */
+  
+    @keyframes secuencia_nombre1 {
+      from {
+        regla1: valorInicial;
+        regla2: valorInicial;
+        reglaN: valorInicial;
+      }
+      40% {
+        regla1: valorIntermedio;
+        regla2: valorIntermedio;
+        reglaN: valorIntermedio;
+      }
+      to {
+        regla1: valorFinal;
+        regla2: valorFinal;
+        reglaN: valorFinal;
+      }
+    }
+ 
+  /* Tarea: Completar las secuencias deseadas */
